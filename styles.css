@@ -1,0 +1,32 @@
+body {
+    background-color: #060621;
+    font-family: Consolas;
+    font-style: italic;
+}
+
+h1 {
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+}
+
+h2 {
+    color: cyan;
+    font-size: 3vw;
+    text-align: left;
+    margin-left: 1.5vw;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width: 30vw;
+}
