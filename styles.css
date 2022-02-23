@@ -1,25 +1,25 @@
 body {
     background-color: #060621;
     font-family: Consolas;
-    font-style: italic;
+    color: white;
 }
 
 h1 {
     color: white;
     font-size: 4vw;
+    font-style: italic;
     text-align: center;
 }
 
 h2 {
     color: cyan;
     font-size: 3vw;
+    font-style: italic;
     text-align: left;
-    margin-left: 1.5vw;
 }
 
 p {
-    color: white;
-    text-align: center;
+    text-align: left;
 }
 
 #buttons {
@@ -27,6 +27,25 @@ p {
     justify-content: space-around;
 }
 
+#main-body {
+    display: inline-block;
+    margin-left: 1.5vw;
+    padding-right: 1.5vw;
+    width: 50vw;
+    border: 5px solid #060621;
+    border-right-color: cyan;
+}
+
+#awards-list {
+    display: inline-block;
+    position: absolute;
+    margin-left: 1.5vw;
+}
+
 .button {
     width: 30vw;
+}
+
+.image {
+    width: 40vw;
 }
