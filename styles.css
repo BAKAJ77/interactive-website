@@ -36,6 +36,11 @@ p {
     border-right-color: cyan;
 }
 
+#form-body {
+    margin-left: 1.5vw;
+    margin-top: 1.0vh;
+}
+
 #awards-list {
     display: inline-block;
     position: absolute;
@@ -48,4 +53,8 @@ p {
 
 .image {
     width: 40vw;
+}
+
+.input-field {
+    width: 15vw;
 }
