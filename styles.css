@@ -58,3 +58,14 @@ p {
 .input-field {
     width: 15vw;
 }
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+}
